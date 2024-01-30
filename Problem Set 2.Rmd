@@ -1,0 +1,31 @@
+---
+title: "Problem Set 2"
+author: "Christopher B."
+date: "2024-01-30"
+output: pdf_document
+---
+
+```{r setup, include=TRUE}
+## Set code chunk options
+  knitr::opts_chunk$set(
+    echo = TRUE,
+    eval = TRUE,
+    fig.align = 'center',
+    message = FALSE,
+    warning = FALSE
+  )
+```
+
+```{r}
+## Load packages
+  library(tidyverse)
+  library(knitr)
+  library(ggplot2)
+
+## Problem Set 2 dataframe
+  df = readr::read_csv("greenspace_data_share.csv") #data from https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/TMWYHB
+```
+
+
+1. 
+
